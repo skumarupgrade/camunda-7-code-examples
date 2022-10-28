@@ -12,7 +12,7 @@ import org.springframework.core.Ordered;
 public class MySpringConfig {
 
     @Configuration
-    @ComponentScan(basePackages = {"org.company.camunda.plugin","org.company.camunda.delegate"})
+    @ComponentScan(basePackages = {"org.company.camunda.plugin","org.company.camunda.delegate","org.company.camunda.auth"})
     public static class ComponentScanConfiguration {
     }
 }
